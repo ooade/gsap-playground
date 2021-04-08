@@ -3,7 +3,7 @@ const tl = new TimelineLite();
 const sceneOne = () => {
 	const tl = new TimelineLite();
 	tl.to(
-		".bar",
+		".box",
 		2,
 		{
 			backgroundColor: "orange",
@@ -20,7 +20,7 @@ const sceneTwo = () => {
 	const tl = new TimelineLite();
 
 	tl.staggerTo(
-		".bar",
+		".box",
 		2,
 		{
 			backgroundColor: "turquoise",

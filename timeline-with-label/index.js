@@ -1,6 +1,6 @@
 const tl = new TimelineLite();
-const box = document.querySelectorAll(".bar");
-const otherBox = document.querySelectorAll(".other-bar");
+const box = document.querySelectorAll(".box");
+const otherBox = document.querySelectorAll(".other-box");
 
 tl.staggerFrom(
 	box,
